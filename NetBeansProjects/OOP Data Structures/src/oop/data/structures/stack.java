@@ -44,4 +44,9 @@ public class stack {
     public boolean isEmpty(){
         return top==-1;
     }
+    
+    public boolean isFull()
+    {
+        return top==max_size;
+    }
 }
