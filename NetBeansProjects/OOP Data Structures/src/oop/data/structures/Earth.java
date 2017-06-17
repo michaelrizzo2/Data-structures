@@ -32,6 +32,7 @@ public class Earth {
         
         Human human1=new Human("Joe",27,"Blue",70);
         human1.speak();
+        human1.eat();
         
 
         
