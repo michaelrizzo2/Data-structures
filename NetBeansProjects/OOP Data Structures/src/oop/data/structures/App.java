@@ -25,6 +25,8 @@ public class App {
         my_stack.push(20);
         my_stack.push(20);
         my_stack.push(20);
+        my_stack.push(20);
+        my_stack.push(20);
         
         //outputting the elements in the stack
         while(!my_stack.isEmpty())
