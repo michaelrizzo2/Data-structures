@@ -23,4 +23,25 @@ public class stack {
         this.top=-1;
     }
     
+    public void push(long j)
+    {
+        top++;
+        stackarray[top]=j;
+    }
+    
+    public long pop()
+    {
+        int old_top=top;
+        top--;
+        return stackarray[old_top];
+    }
+    
+    public long peek()
+    {
+        return stackarray[top];
+    }
+    
+    public boolean isEmpty(){
+        return top==-1;
+    }
 }
