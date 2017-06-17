@@ -11,4 +11,7 @@ package oop.data.structures;
  */
 public class stack {
     
+    private int max_size;
+    private long stackarray[];
+    
 }
