@@ -13,5 +13,14 @@ public class stack {
     
     private int max_size;
     private long stackarray[];
+    private int top;
+    
+    //This wil set up the array
+    public stack(int size)
+    {
+        this.max_size=size;
+        this.stackarray=new long[max_size];
+        this.top=-1;
+    }
     
 }
