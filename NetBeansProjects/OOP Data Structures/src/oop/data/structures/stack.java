@@ -25,8 +25,18 @@ public class stack {
     
     public void push(long j)
     {
+        if (!isFull())
+        {
         top++;
         stackarray[top]=j;
+        }
+        
+        else 
+        {
+            System.out.println("You have exceeded the bounds of the array");
+        }
+        
+        
     }
     
     public long pop()
@@ -47,6 +57,9 @@ public class stack {
     
     public boolean isFull()
     {
-        return top==max_size;
+        return top==max_size-1;
     }
+    
+    
+    
 }
