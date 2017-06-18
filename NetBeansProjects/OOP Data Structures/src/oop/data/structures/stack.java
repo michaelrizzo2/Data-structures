@@ -41,20 +41,10 @@ public class stack {
     
     public long pop()
     {
-        
-        if(isEmpty())
-        {
-        System.out.println("The stack is empty");
-        return -1;
-        }
-        
-        else
-        {
+
         int old_top=top; 
         top--;
-        return stackarray[old_top];
-        }
-       
+        return stackarray[old_top];  
     }
     
     public long peek()
