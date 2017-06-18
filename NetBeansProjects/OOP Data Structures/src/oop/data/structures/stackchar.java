@@ -12,18 +12,18 @@ package oop.data.structures;
 public class stackchar {
     
     private int max_size;
-    private long stackarray[];
+    private char stackarray[];
     private int top;
     
     //This wil set up the array
     public stackchar(int size)
     {
         this.max_size=size;
-        this.stackarray=new long[max_size];
+        this.stackarray=new char[max_size];
         this.top=-1;
     }
     
-    public void push(long j)
+    public void push(char j)
     {
         if (!isFull())
         {
