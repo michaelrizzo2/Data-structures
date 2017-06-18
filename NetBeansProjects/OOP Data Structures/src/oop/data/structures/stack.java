@@ -41,7 +41,6 @@ public class stack {
     
     public long pop()
     {
-
         int old_top=top; 
         top--;
         return stackarray[old_top];  
