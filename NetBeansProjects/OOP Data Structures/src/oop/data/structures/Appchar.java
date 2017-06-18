@@ -22,7 +22,8 @@ public class Appchar {
     {
         //first we need to get the length of the string to set up the stack
         int stack_size=string.length();
-        //we need to push the elements onto the stack
+        //we need to set up the stack
+        stackchar string_stack=new stackchar(stack_size);
         
         return string;
     }
