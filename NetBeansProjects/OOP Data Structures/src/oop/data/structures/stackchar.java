@@ -39,14 +39,14 @@ public class stackchar {
         
     }
     
-    public long pop()
+    public char pop()
     {
         int old_top=top; 
         top--;
         return stackarray[old_top];  
     }
     
-    public long peek()
+    public char peek()
     {
         return stackarray[top];
     }
