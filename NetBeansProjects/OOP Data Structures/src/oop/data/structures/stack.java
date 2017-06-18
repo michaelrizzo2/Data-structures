@@ -50,7 +50,7 @@ public class stack {
         
         else
         {
-        int old_top=top;
+        int old_top=top; 
         top--;
         return stackarray[old_top];
         }

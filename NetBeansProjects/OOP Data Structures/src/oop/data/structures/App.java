@@ -31,9 +31,10 @@ public class App {
         //outputting the elements in the stack
         while(!my_stack.isEmpty())
         {
-            System.out.println("Element is " +my_stack.pop());
+            long value=my_stack.pop();
+            System.out.println("Element is " +value);
         }
-        
+       
         
     }
     
