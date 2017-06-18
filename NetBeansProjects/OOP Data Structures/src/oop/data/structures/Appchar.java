@@ -12,25 +12,10 @@ package oop.data.structures;
 public class Appchar {
     
     public static void main(String[] args) {
-        stack my_stack =new stack(10);
-        my_stack.push(20);
-        my_stack.push(20);
-        my_stack.push(20);
-        my_stack.push(20);
-        my_stack.push(20);
-        my_stack.push(20);
-        my_stack.push(20);
-        my_stack.push(20);
-        my_stack.push(20);
-        my_stack.push(20);
-        my_stack.push(20);
-        my_stack.push(20);
         
-        //outputting the elements in the stack
-        while(!my_stack.isEmpty())
-        {
-            System.out.println("Element is " +my_stack.pop());
-        }
+        
+        
+        
 }
     
     public static String reverser(String string)
