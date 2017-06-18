@@ -32,4 +32,13 @@ public class Appchar {
             System.out.println("Element is " +my_stack.pop());
         }
 }
+    
+    public static String reverser(String string)
+    {
+        //first we need to get the length of the string to set up the stack
+        int stack_size=string.length();
+        //we need to push the elements onto the stack
+        
+        return string;
+    }
 }
