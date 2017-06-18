@@ -14,7 +14,7 @@ public class Appchar {
     public static void main(String[] args) {
         
         
-        
+        String reverse = reverser("String is string");
         
 }
     
@@ -24,6 +24,12 @@ public class Appchar {
         int stack_size=string.length();
         //we need to set up the stack
         stackchar string_stack=new stackchar(stack_size);
+        //now we need to push the elements onto the stack
+        for (int i=0;i<stack_size;i++)
+        {
+            string_stack.push(string.charAt(i));           
+        }
+        
         
         return string;
     }
