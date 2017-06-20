@@ -18,5 +18,21 @@ public class queue {
     private int back;
     private int nitems;//This will count the number of items
     
+    //Setting up the constructor for the queue array
+    public queue(int size)
+    {
+        this.maxsize=size;
+        this.queuearray=new long[size];
+        front=0;
+        back=-1;//There is no item set to be the back item yet.
+        nitems=0;
+    }
+    
+    public void insert(long j)
+    {
+        back++;
+        queuearray[back]=j;
+        nitems++;
+    }
     
 }
