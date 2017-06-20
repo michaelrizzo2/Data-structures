@@ -35,4 +35,12 @@ public class queue {
         nitems++;
     }
     
+    public void view()
+    {
+        for (int i=0;i<queuearray.length;i++)
+        {
+            System.out.println("The element is "+queuearray[i]);
+        }
+    }
+    
 }
