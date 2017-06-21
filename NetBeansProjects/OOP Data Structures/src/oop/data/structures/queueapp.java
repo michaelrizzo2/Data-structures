@@ -20,7 +20,6 @@ public class queueapp {
         myqueue.insert(3);
         myqueue.insert(4);
         myqueue.insert(5);
-        myqueue.insert(5);
         
         
     }
