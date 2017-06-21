@@ -52,6 +52,15 @@ public class queue {
         return queuearray[front];
     }
     
+    public boolean isempty()
+    {
+        return nitems==0;
+    }
+    
+    public boolean isfull()
+    {
+        return nitems==maxsize;
+    }
     public void view()
     {
         for (int i=0;i<queuearray.length;i++)
