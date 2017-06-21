@@ -47,6 +47,11 @@ public class queue {
         return value;
     }
     
+    public long peekfront()
+    {
+        return queuearray[front];
+    }
+    
     public void view()
     {
         for (int i=0;i<queuearray.length;i++)
