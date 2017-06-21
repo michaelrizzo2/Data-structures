@@ -30,6 +30,10 @@ public class queue {
     
     public void insert(long j)
     {
+        if (back==maxsize-1)
+        {
+            back=-1;
+        }
         back++;
         queuearray[back]=j;
         nitems++;
