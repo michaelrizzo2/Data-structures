@@ -35,6 +35,18 @@ public class queue {
         nitems++;
     }
     
+    public long remove()
+    {
+        long value=queuearray[front];
+        front++;
+        if (front==maxsize)
+        {
+            front=0;
+        }
+        nitems--;
+        return value;
+    }
+    
     public void view()
     {
         for (int i=0;i<queuearray.length;i++)
