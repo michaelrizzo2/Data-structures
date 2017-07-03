@@ -14,10 +14,10 @@ public class Node {
     Node next=null;
     int node_index,node_data;
     //We will set up the constructor to initialize the node
-    public Node(Node node,int node_index)
-            {
-                this.node_index=node_index;
-                this.node_data=node_data;
-            }
+//    public Node(Node node,int node_index)
+//            {
+//                this.node_index=node_index;
+//                this.node_data=node_data;
+//            }
     
 }
