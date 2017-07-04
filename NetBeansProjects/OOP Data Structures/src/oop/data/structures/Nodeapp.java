@@ -28,6 +28,24 @@ public class Nodeapp {
         my_node1.next=my_node2;
         my_node2.next=my_node3;
         my_node3.next=my_node4;
+        System.out.println(listlength(my_node1));
+        System.out.println(listlength(my_node2));
+        
     }
-    
+    //Now we need to get the length of the linked list
+        public static int listlength(Node mynode)
+        {
+            //first we need to setup the length
+            int length=0;
+            //Now we need to get the current node
+            Node currentnode=mynode;
+            //Nowe we will iterate through the list to find the length of the list
+            while(currentnode!=null)
+            {
+                length++;
+                //now we need to move to the next node
+                currentnode=currentnode.next;
+            }
+            return length;
+        }
 }
