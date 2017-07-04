@@ -23,6 +23,11 @@ public class Nodeapp {
         
         Node my_node4=new Node();
         my_node4.node_data=8;
+        
+        //Next we need to link all of the nodes together
+        my_node1.next=my_node2;
+        my_node2.next=my_node3;
+        my_node3.next=my_node4;
     }
     
 }
